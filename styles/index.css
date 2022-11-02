@@ -45,3 +45,34 @@ header {
             width: 100%;
         }
     }
+
+    .page-content {
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .page-title {
+        font-family: cooper-black-std, serif;
+        font-size: 30px;
+        color: #B98B76;
+    }
+
+    .page-text-container {
+        width: 600px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+    }
+
+    .page-text {
+        text-align: center;
+        font-family: lato, sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: black;
+    }
