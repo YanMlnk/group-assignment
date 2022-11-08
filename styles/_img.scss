@@ -1,12 +1,9 @@
 .image-blr {
-&__second:hover {
-    transition: all 0.3s ease-out;
-    position: relative;
-    z-index: 2;
-    transform: scale(1.1, 1.1);
-    z-index: 9;
-}
-&__third:hover {
+&__first:hover, &__second:hover, &__third:hover {
+    box-shadow:
+    -50px -50px 0 -40px(#D22730),
+    50px 50px 0 -40px(#00AF66);
+    
     transition: all 0.3s ease-out;
     position: relative;
     z-index: 2;
