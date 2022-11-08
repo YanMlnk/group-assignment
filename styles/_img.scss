@@ -1,0 +1,14 @@
+.image-first, .image-second, .image-third{
+    height: 20px;
+    width: 20px;
+}
+
+
+.image__first:hover {
+    transition: all 0.3s ease-out;
+	position: relative;
+	z-index: 2;
+    transform: scale(1.2, 1.2);
+    z-index: 9;
+    }
+   
