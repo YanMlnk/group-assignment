@@ -1,0 +1,8 @@
+@use 'fonts';
+@import '_belarus-header';
+@import '_belarus-main';
+@import '_img';
+
+body {
+    font-family: fonts.$main-font;
+}
