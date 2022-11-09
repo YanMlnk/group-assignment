@@ -1,2 +1,71 @@
+@use 'fonts';
 @import '_belarus-header';
 @import '_belarus-main';
+
+body {
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    animation: 2s anim-lineUp ease-out;
+      @keyframes anim-lineUp {
+        0% {
+          opacity: 0;
+          transform: translateY(80%);
+        }
+        20% {
+          opacity: 0;
+        }
+        50% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0%);
+        }
+      }
+}
+
+
+.picture-container {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+.kovalevskaya-pic {
+    float: right;
+    width: 550px;
+    height: 400px;
+}
+.kovalevskaya-title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+    color: #B98B76;
+    text-decoration: underline;
+}
+
+.text-box-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.text-box-two {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.kovalevskaya-text-one, .kovalevskaya-text-two {
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Rokkitt', serif;
+    color: rgba(18, 17, 17, 0.876);
+}
