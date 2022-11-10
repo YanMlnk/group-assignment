@@ -1,0 +1,73 @@
+@use 'fonts';
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #E5D2C4;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.logos {
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-items: flex-start;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.title {
+    position: inherit;
+    border-top: 4px solid #FF9933;
+    color: white;
+    border-bottom: 4px solid #138808;
+    -webkit-animation: border_anim 2s linear forwards;
+    animation: border_anim 2s linear forwards;
+}
+
+.heading-one {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.savitri-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin-left: 20px;
+}
+
+.savitri-img {
+    max-width: 450px;
+}
+
+.details {
+    position: relative;
+    max-width: 500px;
+    left: 20px;
+}
+
+.readmore {
+    margin-left: 20px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-self: center;
+}
+
+a {
+    text-decoration: none;
+}
