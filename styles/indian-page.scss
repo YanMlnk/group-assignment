@@ -1,0 +1,126 @@
+@use 'fonts';
+
+body {
+  font-family: fonts.$main-font;
+}
+
+.logos {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-items: flex-start;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.title {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+  content: "";
+  position: inherit;
+  border-top: 4px solid #FF9933;
+  color: white;
+  border-bottom: 4px solid #138808;
+  -webkit-animation: border_anim 2s linear forwards;
+  animation: border_anim 2s linear forwards;
+}
+
+@-webkit-keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes border_anim {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #E5D2C4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto;
+}
+.heading{
+  margin-left: 10px;
+}
+.discrption{
+  margin-left: 10px;
+}
+.indian-box {
+  position: relative;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: fit-content;
+  height: fit-content;
+  grid-gap: 40px;
+  margin-left: 10px;
+  object-fit: cover;
+}
+
+.grid__element {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-1 {
+  grid-row: 1/ 2;
+  grid-column: 1 / 2;
+}
+
+.img-2 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+}
+
+.img-3 {
+  grid-row: 1/ 2;
+  grid-column: 3 / 4;
+}
+
+.para-2 {
+  width: 1109px;
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+}
+.img-1:hover, .img-2:hover, .img-3:hover{
+  -webkit-box-shadow: -50px -50px 0 -40px #FF9933, 50px 50px 0 -40px #138808;
+          box-shadow: -50px -50px 0 -40px #ff9933, 50px 50px 0 -40px #138808;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  position: relative;
+  z-index: 2;
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
+  z-index: 9;
+}
