@@ -181,3 +181,7 @@ a:visited {
     width: 280px;
     height: 230px;
   }
+
+  ul {
+    list-style-type: none;
+  }
