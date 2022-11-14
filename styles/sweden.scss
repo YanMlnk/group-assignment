@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-    color: rgba(0, 0, 0, 0.507);
+    color: rgba(0, 0, 0, 0.637);
     transition: 0.5s ease;
 }
 
@@ -92,9 +92,37 @@ img {
     transform: translateX(10px);
 }
 
-@media only screen and (max-width:885px) {
+
+@media only screen and (max-width:845px) {
     .grid-container {
-        display: inline;
+        display: inherit;
+        transform: translateX(40%);
     }
 }
-    
+
+@media only screen and (max-width:705px) {
+    .grid-container {
+        display: inherit;
+        transform: translateX(30%);
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .grid-container {
+        display: inherit;
+        transform: translateX(20%);
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .grid-container {
+        display: inherit;
+        transform: translateX(10%);
+    }
+}
+
+@media only screen and (max-width:350px) {
+    .grid-container {
+        display: inherit;
+    }
+}
