@@ -61,6 +61,10 @@ a:visited {
   grid-template-columns: repeat(9, 1fr);
 }
 
+h2 {
+  width: 100vh;
+}
+
 .item1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 25px;
@@ -88,4 +92,11 @@ img {
   grid-row-end: 6;
   grid-column-start: 6;
   grid-column-end: 9;
+}
+
+@media only screen and (max-width: 1166px) {
+  .grid-container {
+    display: inline;
+    margin: auto;
+  }
 }

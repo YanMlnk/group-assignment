@@ -36,3 +36,10 @@ img {
     grid-column-start: 6;
     grid-column-end: 9;
 }
+
+@media only screen and (max-width:1166px) {
+    .grid-container {
+        display: inline;
+        margin: auto;
+    }
+}
