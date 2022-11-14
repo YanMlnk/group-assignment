@@ -1,12 +1,12 @@
 body {
     height:100vh;
-    width: 100%;
+    width: 90%;
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
     flex-direction: column;
-    margin: no;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 header {
@@ -24,4 +24,63 @@ header {
 .logo {
     height: 150px;
     width: 150px; 
+}
+
+.title {
+    text-align: center;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+        content: '';
+        position: inherit;
+        border-top: 4px solid #FD8FE2;
+        border-bottom:4px solid #FD8FE2; 
+        animation: border_anim 2s linear forwards;
+    }
+    
+    a:link {
+        text-decoration: none;
+      }
+      
+      a:visited {
+        text-decoration: none;
+      }
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.social-section {
+    max-width: 90%;
+    min-height: 100vh;
+    display: grid;
+    margin: auto;
+    grid-template-rows: repeat(7,1fr);
+    grid-template-columns: repeat(11,1fr);
+}
+
+.anumol {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.yana {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+.amanda {
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 10;
+    grid-column-end: 11;
 }
