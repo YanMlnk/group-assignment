@@ -131,7 +131,6 @@ a:visited {
     height: 100%;
     border-top: 4px solid #FF9933;
     border-bottom:4px solid #138808;
-    border-bottom:4px solid;
     transform: scaleX(0);
     transition: transform 0.3s ease;
   }
