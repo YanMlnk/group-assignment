@@ -1,0 +1,27 @@
+body {
+    height:100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: no;
+}
+
+header {
+    width: 100%;
+    display: flex;
+ 
+}
+
+.logos {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-items: flex-start;
+}
+.logo {
+    height: 150px;
+    width: 150px; 
+}
