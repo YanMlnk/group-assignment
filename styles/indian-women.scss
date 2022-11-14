@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: center;
 }
 
 .logos {
@@ -43,9 +44,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
     max-width: 1000px;
     margin-left: 20px;
+    align-items: center;
 }
 
 .savitri-img {
@@ -57,17 +58,6 @@ body {
     max-width: 500px;
     left: 20px;
 }
-
-.readmore {
-    margin-left: 20px;
-    background-color: white;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    align-self: center;
-}
-
 a {
     text-decoration: none;
 }
