@@ -84,4 +84,14 @@ h2 {
   grid-column-start: 10;
   grid-column-end: 11;
 }
+
+.fa-brands {
+  width: 10px;
+  color: rgba(0, 0, 0, 0.692);
+}
+
+.fa-brands:hover {
+  color: rgba(253, 143, 225, 0.7411764706);
+  transition: 0.5s ease;
+}
 /*# sourceMappingURL=links.css.map */
