@@ -73,18 +73,21 @@
     flex-direction: row;
     flex-wrap: wrap;
     max-width: 1000px;
-    margin-left: 20px;
     align-items: flex-start;
+    margin-left: 20px;
 }
 
 .women-img {
     max-width: 450px;
+    margin-left: 20px;
 }
 
 .details {
     position: relative;
     max-width: 500px;
-    left: 20px;
+    margin-left: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
 }
 a {
     text-decoration: none;
