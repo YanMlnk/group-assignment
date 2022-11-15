@@ -53,6 +53,7 @@ ul, li, a {
 
 h2 {
     text-align: center;
+    font-size: 30px;
 }
 
 .social-section {
@@ -68,26 +69,27 @@ h2 {
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-end: 4;
 }
 
 .yana {
     grid-row-start: 2;
     grid-row-end: 5;
     grid-column-start: 6;
-    grid-column-end: 7;
+    grid-column-end: 8;
 }
 
 .amanda {
     grid-row-start: 2;
     grid-row-end: 5;
-    grid-column-start: 10;
+    grid-column-start: 9;
     grid-column-end: 11;
 }
 
 .fa-brands {
     width: 10px;
     color: rgba(0, 0, 0, 0.692);
+    margin: 10px;
 }
 
 .fa-brands:hover {
