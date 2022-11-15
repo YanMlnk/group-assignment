@@ -183,5 +183,12 @@ a:visited {
   }
 
   ul {
+    display: flex;
+  
+    flex-direction: row;
     list-style-type: none;
+  }
+
+  li {
+    padding: 10px;
   }
