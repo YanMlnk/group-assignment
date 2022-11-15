@@ -2,23 +2,15 @@ body {
   height: 100%;
   width: 100%;
   background-color: #E5D2C4;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
 .logos {
   height: 150px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
   justify-items: flex-start;
 }
@@ -33,7 +25,6 @@ body {
   border-top: 4px solid #FF9933;
   color: white;
   border-bottom: 4px solid #138808;
-  -webkit-animation: border_anim 2s linear forwards;
   animation: border_anim 2s linear forwards;
 }
 
@@ -43,20 +34,12 @@ body {
 }
 
 .savitri-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
   max-width: 1000px;
   margin-left: 20px;
+  align-items: center;
 }
 
 .savitri-img {
@@ -69,18 +52,7 @@ body {
   left: 20px;
 }
 
-.readmore {
-  margin-left: 20px;
-  background-color: white;
-  border: none;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
 a {
   text-decoration: none;
 }
+/*# sourceMappingURL=indian-women.css.map */
